@@ -1,7 +1,7 @@
 #include "utils.C"
 
 TCanvas* Mask_DTB(
-    TString inFile = "RootFiles/PPS-tests/V5-1-005/pxar_FullTest.root"
+    TString inFile = "TestRootFiles/PPS-tests/V5-1-005/pxar_FullTest.root"
 ){
     TCanvas *c = makeCanvasWithAspectRatio("c","c",92,80);
 

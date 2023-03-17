@@ -4,8 +4,8 @@
 TCanvas* TBMDelay_HeadersComparison_POS(
     TString fed = "1463",
     TString fiber = "15",
-    TString inFileTBM = "RootFiles/PixelRun/Runs/Run_1000/Run_1026/TBMDelay.root",
-    TString inFileROC = "RootFiles/PixelRun/Runs/Run_1000/Run_1027/TBMDelay.root"
+    TString inFileTBM = "TestRootFiles/PixelRun/Runs/Run_1000/Run_1026/TBMDelay.root",
+    TString inFileROC = "TestRootFiles/PixelRun/Runs/Run_1000/Run_1027/TBMDelay.root"
 ){
     TCanvas *c = makeCanvasWithAspectRatio("c","c",92,80);
 

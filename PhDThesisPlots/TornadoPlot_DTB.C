@@ -2,7 +2,7 @@
 
 TCanvas* TornadoPlot_DTB(
     TString chip = "1",
-    TString inFile = "RootFiles/PPS-tests/V5-1-010/pxar_FullTest.root"
+    TString inFile = "TestRootFiles/PPS-tests/V5-1-010/pxar_FullTest.root"
 ){
     TCanvas *c = makeCanvasWithAspectRatio("c","c",14,9);
 

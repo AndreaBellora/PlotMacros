@@ -4,7 +4,7 @@ TCanvas* Noise2D_POS(
     TString sector = "45",
     TString rpId = "003",
     TString plane = "0",
-    TString inFile = "RootFiles/PixelRun/Runs/Run_1000/Run_1011/SCurve_Fed_1462-1463_Run_1011.root"
+    TString inFile = "TestRootFiles/PixelRun/Runs/Run_1000/Run_1011/SCurve_Fed_1462-1463_Run_1011.root"
 ){
     TCanvas *c = makeCanvasWithAspectRatio("c","c",92,80);
 

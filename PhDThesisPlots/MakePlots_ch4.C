@@ -44,9 +44,9 @@ void setRange_st2_square(TPad *pad, bool isEfficiency = false) {
 void MakePlots_ch4(){
     // Folder to save plots
     TString outputFolderImages = "ch-4/fig/";
-    TFile *inputEff_all = TFile::Open("RootFiles/EfficiencyComponentPlots/output.root");
-    TFile *inputEff_radNearOff_multiRPOff = TFile::Open("RootFiles/EfficiencyComponentPlots/output_radNearOff_multiRPOff.root");
-    TFile *inputEff_multiRPOff = TFile::Open("RootFiles/EfficiencyComponentPlots/output_multiRPOff.root");
+    TFile *inputEff_all = TFile::Open("TestRootFiles/EfficiencyComponentPlots/output.root");
+    TFile *inputEff_radNearOff_multiRPOff = TFile::Open("TestRootFiles/EfficiencyComponentPlots/output_radNearOff_multiRPOff.root");
+    TFile *inputEff_multiRPOff = TFile::Open("TestRootFiles/EfficiencyComponentPlots/output_multiRPOff.root");
   TCanvas *c = makeCanvasWithAspectRatio("c","c",14,9);
 
 

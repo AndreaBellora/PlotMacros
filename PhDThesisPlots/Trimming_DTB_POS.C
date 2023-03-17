@@ -6,8 +6,8 @@ TCanvas* Trimming_DTB_POS(
     TString rpId = "003",
     TString plane = "5",
     TString roc = "0",
-    TString inFile_DTB = "RootFiles/PPS-tests/V5-1-010/pxar_FullTest.root",
-    TString inFile_POS = "RootFiles/PixelRun/Runs/Run_1000/Run_1011/SCurve_Fed_1462-1463_Run_1011.root"
+    TString inFile_DTB = "TestRootFiles/PPS-tests/V5-1-010/pxar_FullTest.root",
+    TString inFile_POS = "TestRootFiles/PixelRun/Runs/Run_1000/Run_1011/SCurve_Fed_1462-1463_Run_1011.root"
 ){
     using namespace std;
     TCanvas *c = makeCanvasWithAspectRatio("c","c",92,80);

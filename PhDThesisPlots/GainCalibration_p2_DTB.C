@@ -3,7 +3,7 @@
 // Plot noise distribution for one plane
 TCanvas* GainCalibration_p2_DTB(
     TString chip = "0",
-    TString inFile = "RootFiles/PPS-tests/V5-1-010/pxar_FullTest.root"
+    TString inFile = "TestRootFiles/PPS-tests/V5-1-010/pxar_FullTest.root"
 ){
     TCanvas *c = makeCanvasWithAspectRatio("c","c",92,80);
 

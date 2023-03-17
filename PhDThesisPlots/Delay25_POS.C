@@ -5,7 +5,7 @@ TCanvas* Delay25_POS(
     TString rpId = "003",
     TString plane = "2",
     TString command = "1",
-    TString inFile = "RootFiles/PixelRun/Runs/Run_1000/Run_1072/delay25_1.root"
+    TString inFile = "TestRootFiles/PixelRun/Runs/Run_1000/Run_1072/delay25_1.root"
 ){
     TCanvas *c = makeCanvasWithAspectRatio("c","c",92,80);
 

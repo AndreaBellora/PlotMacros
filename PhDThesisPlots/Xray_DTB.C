@@ -1,7 +1,7 @@
 #include "utils.C"
 
 TCanvas* Xray_DTB(
-    TString inFile = "RootFiles/PPS-tests/V5-1-013/pxar_xray.root"
+    TString inFile = "TestRootFiles/PPS-tests/V5-1-013/pxar_xray.root"
 ){
     TCanvas *c = makeCanvasWithAspectRatio("c","c",92,80);
 

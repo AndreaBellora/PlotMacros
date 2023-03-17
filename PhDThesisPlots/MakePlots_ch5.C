@@ -29,7 +29,7 @@ void MakePlots_ch5(){
         "003",
         "2",
         "",
-        "RootFiles/PixelRun/Runs/Run_1000/Run_1072/delay25_1.root"
+        "TestRootFiles/PixelRun/Runs/Run_1000/Run_1072/delay25_1.root"
     );
     c->SaveAs(saveDir+"Delay25_intersection.pdf");
     delete c;
@@ -39,7 +39,7 @@ void MakePlots_ch5(){
         "003",
         "2",
         "1",
-        "RootFiles/PixelRun/Runs/Run_1000/Run_1072/delay25_1.root"
+        "TestRootFiles/PixelRun/Runs/Run_1000/Run_1072/delay25_1.root"
     );
     c->SaveAs(saveDir+"Delay25_easyCommand.pdf");
     delete c;

@@ -4,7 +4,7 @@
 TCanvas* POHBias_POS(
     TString fed = "1463",
     TString fiber = "16",
-    TString inFile = "RootFiles/PixelRun/Runs/Run_1000/Run_1037/POHBias.root"
+    TString inFile = "TestRootFiles/PixelRun/Runs/Run_1000/Run_1037/POHBias.root"
 ){
     TCanvas *c = makeCanvasWithAspectRatio("c","c",14,9);
 

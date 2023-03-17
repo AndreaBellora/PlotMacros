@@ -5,7 +5,7 @@ TCanvas* GainCalibration_Slope_POS(
     TString sector = "45",
     TString rpId = "003",
     TString plane = "0",
-    TString inFile = "RootFiles/PixelRun/Runs/Run_1000/Run_522/Gain_Fed_1462-1463_Run_522.root"
+    TString inFile = "TestRootFiles/PixelRun/Runs/Run_1000/Run_522/Gain_Fed_1462-1463_Run_522.root"
 ){
     TCanvas *c = makeCanvasWithAspectRatio("c","c",92,80);
 

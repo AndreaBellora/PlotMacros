@@ -7,7 +7,7 @@ TCanvas* GainCalibration_Fit_POS(
     TString plane = "4",
     TString roc = "3",
     TString pixelString = "row0_col13",
-    TString inFile = "RootFiles/PixelRun/Runs/Run_1000/Run_522/Gain_Fed_1462-1463_Run_522.root"
+    TString inFile = "TestRootFiles/PixelRun/Runs/Run_1000/Run_522/Gain_Fed_1462-1463_Run_522.root"
 ){
     TCanvas *c = makeCanvasWithAspectRatio("c","c",92,80);
 

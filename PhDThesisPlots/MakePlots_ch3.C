@@ -3,7 +3,7 @@
 #include "CMS_lumi.h"
 
 void MakePlots_ch3(
-    TString inFile = "RootFiles/TrackingPlots/EraB_resolution_reMiniAOD_VerySmallRegion_OneTrack_OneHit.root",
+    TString inFile = "TestRootFiles/TrackingPlots/EraB_resolution_reMiniAOD_VerySmallRegion_OneTrack_OneHit.root",
     TString arm = "1"
 ){
     TString saveDir = "ch-3/fig/";
