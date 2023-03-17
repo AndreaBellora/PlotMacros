@@ -504,7 +504,7 @@ void SavePlotsPOGPaper() {
 
   // Write CMS watermark
   CMS_lumi((TPad *)c.GetPad(0), 4, 11, "Sector 45");
-  c.Print(outputFolderImages + "efficiency-summary-45.pdf");
+  c.Print(outputFolderImages + "Figure_050-a.pdf");
 
   // Sector 56
   eff2016_Up = 
@@ -579,7 +579,7 @@ void SavePlotsPOGPaper() {
 
   // // Write CMS watermark
   CMS_lumi((TPad *)c.GetPad(0), 4, 11, "Sector 56");
-  c.Print(outputFolderImages + "efficiency-summary-56.pdf");
+  c.Print(outputFolderImages + "Figure_050-b.pdf");
 
   // 
   // Avg acceptances per year
@@ -650,7 +650,7 @@ void SavePlotsPOGPaper() {
 
   // Write CMS watermark
   CMS_lumi((TPad *)c.GetPad(0), 4, 11, "Sector 45");
-  c.Print(outputFolderImages + "acceptance-summary-45.pdf");
+  c.Print(outputFolderImages + "Figure_035-a.pdf");
 
   // Sector 56
   eff2016_Up = 
@@ -716,7 +716,7 @@ void SavePlotsPOGPaper() {
 
   // // Write CMS watermark
   CMS_lumi((TPad *)c.GetPad(0), 4, 11, "Sector 56");
-  c.Print(outputFolderImages + "acceptance-summary-56.pdf");
+  c.Print(outputFolderImages + "Figure_035-b.pdf");
 
 
   setRectangularPlots();

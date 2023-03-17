@@ -54,7 +54,7 @@ void CMS_lumi(TPad *pad, int iPeriod, int iPosX, TString periodAndLumi, int year
 	  cmsText = "#font[61]{CMS}";
     lumiText = " 2018";
   } else if (year==0){
-    cmsText = "#font[61]{CMS} #scale[0.76]{#font[52]{Simulation}}";
+    cmsText = "#font[61]{CMS-TOTEM} #scale[0.76]{#font[52]{Simulation}}";
   }
 
   if (preliminary)
